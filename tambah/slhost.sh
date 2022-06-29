@@ -12,7 +12,7 @@ sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 DOMAIN=24clanssh.com
 SUB_DOMAIN=server-${sub}.24clanssh.com
 NS_DOMAIN=slowdns-${sub}.24clanssh.com
-CF_ID=slinfinity69@gmail.com
+CF_ID=farukbrowser0@gmail.com
 CF_KEY=3dcb550a77cb0a64dacf205243e3ac550f9db
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
