@@ -20,7 +20,7 @@ locality=Indonesia
 organization=SL
 organizationalunit=SL
 commonname=0.0.0.0
-email=farukbrowser@facebook.com
+email=sulaiman.xl@facebook.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/${GitUser}/test1/main/password"
@@ -79,8 +79,7 @@ apt dist-upgrade -y
 apt -y install wget curl
 
 # set time GMT +7
-ln -fs /usr/share/zoneinfo/Africa/Nigeria /etc/localtime
-
+ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 # set locale
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 
