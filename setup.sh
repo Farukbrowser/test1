@@ -12,13 +12,13 @@ if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permintaan Diterima...${NC}"
 else
 echo -e "${red}Permintaan Ditolak!${NC}";
-echo "Hanya untuk pengguna terdaftar"
+echo "For registered users only"
 fi
 mkdir /etc/v2ray
 mkdir /var/lib/crot-script;
 clear
-echo "Masukkan Domain Anda, Jika Anda Tidak Memiliki Domain Klik Enter"
-echo "Ketikkan Perintah addhost setelah proses instalasi Script Selesai"
+echo "Enter Your Domain, If You Don't Have a Domain Click Enter"
+echo "Type the command addhost after the script installation process is complete"
 read -p "Hostname / Domain: " host
 echo "IP=$host" >> /var/lib/crot-script/ipvps.conf
 echo "$host" >> /etc/v2ray/domain
@@ -75,7 +75,7 @@ echo "   - V2RAY Vmess None TLS     : 780"  | tee -a log-install.txt
 echo "   - Trojan                   : 6443"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
-echo "   - Timezone                : Africa/Nigeria (GMT +7)"  | tee -a log-install.txt
+echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
