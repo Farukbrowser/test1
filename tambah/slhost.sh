@@ -9,11 +9,11 @@ rm -f /etc/v2ray/domain
 
 
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-DOMAIN=mantapxsl.my.id
-SUB_DOMAIN=onichan-${sub}.mantapxsl.my.id
-NS_DOMAIN=slowdns-${sub}.mantapxsl.my.id
-CF_ID=slinfinity69@gmail.com
-CF_KEY=3dcb550a77cb0a64dacf205243e3ac550f9db
+DOMAIN=24clanssh.com
+SUB_DOMAIN=server-${sub}.24clanssh.com
+NS_DOMAIN=slowdns-${sub}.24clanssh.com
+CF_ID=farukbrowser0@gmail.com
+CF_KEY=95b295f79baa8c7a3c264ca5cc31b75131c6d
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
@@ -44,3 +44,4 @@ echo "Host : $SUB_DOMAIN"
 echo $SUB_DOMAIN > /root/domain
 echo $SUB_DOMAIN > /etc/v2ray/domain
 echo $SUB_DOMAIN > /var/lib/crot-script/ipvps.conf
+
