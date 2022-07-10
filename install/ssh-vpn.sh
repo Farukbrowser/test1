@@ -20,7 +20,7 @@ locality=Indonesia
 organization=SL
 organizationalunit=SL
 commonname=0.0.0.0
-email=sulaiman.xl@facebook.com
+email=farukbrowser0@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/${GitUser}/test1/main/password"
