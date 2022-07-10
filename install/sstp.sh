@@ -28,7 +28,7 @@ locality=Indonesia
 organization=SLNET
 organizationalunit=SLNET
 commonname=SLNET
-email=farukbrowser@facebook.com
+email=farukbrowser0@gmail.com
 
 #install sstp
 apt install openssl iptables iptables-persistent -y
