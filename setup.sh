@@ -45,7 +45,7 @@ history -c
 echo "1.1" > /home/ver
 clear
 echo " "
-echo "FARUK VPN SCRIPT Installation has been completed!!"
+echo "Faruk Browser VPN SCRIPT Installation has been completed!!"
 echo " "
 echo "=================================-Script Mod Faruk Browser-===========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
@@ -54,7 +54,7 @@ echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                  : 22, 500"  | tee -a log-install.txt
 echo "   - SSH-WS CDN OpenSSH       : 2095"  | tee -a log-install.txt
-echo "   - SSH-WS CDN Dropbear      : 8880"  | tee -a log-install.txt
+echo "   - SSH-WS CDN Dropbear      : 2082"  | tee -a log-install.txt
 echo "   - SSH-WS CDN SSL/TLS       : 443"  | tee -a log-install.txt
 echo "   - OpenVPN-WS               : 2082"  | tee -a log-install.txt
 echo "   - OpenVPN                  : TCP 1194, UDP 2200, SSL 992, X1197"  | tee -a log-install.txt
@@ -84,7 +84,7 @@ echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
 echo "   - Autoreboot On 00.00 GMT +7" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "------------------------------------------Created By 24clanSSH.Com------------------------------------------" | tee -a log-install.txt
+echo "------------------------------------------Created By Faruk Browser------------------------------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 10 Sec"
 sleep 10
